@@ -16,8 +16,8 @@
     "router": {
         "enabled": true,
         "bypass": [
-            "geoip:cn",
             "geoip:private",
+            "geoip:cn",
             "geosite:cn",
             "geosite:geolocation-cn"
         ],
@@ -28,7 +28,7 @@
             "geosite:geolocation-!cn"
         ],
         "default_policy": "proxy",
-        "geoip": "/usr/share/trojan-go/geoip.dat",
-        "geosite": "/usr/share/trojan-go/geosite.dat"
+        "geoip": "/trojan-go/geoip.dat",
+        "geosite": "/trojan-go/geosite.dat"
     }
 }

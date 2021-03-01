@@ -8,8 +8,8 @@
         "your_password"
     ],
     "ssl": {
-        "cert": "your_cert.crt",
-        "key": "your_key.key",
+        "cert": "/config/your_cert.crt",
+        "key": "/config/your_key.key",
         "sni": "your-domain-name.com"
     },
     "router": {
@@ -17,7 +17,7 @@
         "block": [
             "geoip:private"
         ],
-        "geoip": "/usr/share/trojan-go/geoip.dat",
-        "geosite": "/usr/share/trojan-go/geosite.dat"
+        "geoip": "/trojan-go/geoip.dat",
+        "geosite": "/trojan-go/geosite.dat"
     }
 }
