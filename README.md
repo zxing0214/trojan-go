@@ -8,3 +8,8 @@ wget https://github.com/zxing0214/trojan-go/raw/master/example/server.json
 # 3、启动容器
 docker run --restart=always --net=host --volume server.json:/config/server.json -p 80:80  -p 443:443  zxing/trojan-go 
 ```
+
+
+## 相关链接
+- GitHub [zxing0214/trojan-go](https://github.com/zxing0214/trojan-go)
+- Docker [zxing/trojan-go](https://hub.docker.com/r/zxing/trojan-go)
